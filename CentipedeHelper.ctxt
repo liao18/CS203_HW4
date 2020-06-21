@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=canvas\ x\ y\ numSegs\ left
+comment0.target=void\ drawCentipede(java.awt.Graphics,\ int,\ int,\ int,\ boolean)
+comment1.params=laserX\ centX\ numSegs\ left
+comment1.target=boolean\ hitsCentipede(int,\ int,\ int,\ boolean)
+comment1.text=\r\n\ hitsCentipede\r\n\r\n\ determines\ whether\ a\ laser\ shot\ will\ hit\ the\ centipede\r\n\r\n\r\n\ @param\ \ laserX\ \ \ \ x-coordinate\ of\ the\ laser\r\n\ @param\ \ centX\ \ \ \ \ x-coordinate\ of\ the\ last\ centipede\ segment\r\n\ @param\ \ numSegs\ \ \ the\ total\ number\ of\ segments\ in\ the\ centipede\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (counting\ the\ head).\ \ Must\ be\ a\ number\ between\ 1\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ 15.\ \ \r\n\ @param\ \ left\ \ \ \ \ \ 'true'\ if\ the\ back\ half\ of\ the\ centipede\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ is\ marching\ left\ (or\ 'false'\ for\ right)\r\n\r\n\ @return\ true\ if\ the\ laser\ will\ hit\ one\ of\ the\ centipede's\ segments\ and\r\n\ \ \ \ \ \ \ \ \ false\ otherwise\r\n
+numComments=2
